@@ -5,7 +5,6 @@ import { useState } from "react";
 
 const Nav = () => {
   const [openMenu, setOpenMenu] = useState(false);
-
   const menuHandler = () => {
     setOpenMenu(!openMenu);
   };
@@ -15,7 +14,6 @@ const Nav = () => {
         <h1>
           Antonio<span>.com</span>
         </h1>
-
         <ul className={openMenu ? "nav-menu active" : "nav-menu"}>
           <li className="active">Home</li>
           <li>Portfolio</li>
