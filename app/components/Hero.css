@@ -90,6 +90,12 @@
 }
 
 @media only screen and (max-width: 780px) {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .hero-container {
     flex-direction: column;
     height: fit-content;
