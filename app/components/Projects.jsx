@@ -20,6 +20,7 @@ const Projects = () => {
           <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
+              <h3>Check out Project</h3>
             </div>
           </a>
         </div>
@@ -28,6 +29,7 @@ const Projects = () => {
           <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
+              <h3>Check out Project</h3>
             </div>
           </a>
         </div>
@@ -36,6 +38,7 @@ const Projects = () => {
           <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
+              <h3>Check out Project</h3>
             </div>
           </a>
         </div>
@@ -44,6 +47,7 @@ const Projects = () => {
           <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
+              <h3>Check out Project</h3>
             </div>
           </a>
         </div>
@@ -52,6 +56,7 @@ const Projects = () => {
           <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
+              <h3>Check out Project</h3>
             </div>
           </a>
         </div>
@@ -60,6 +65,7 @@ const Projects = () => {
           <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
+              <h3>Check out Project</h3>
             </div>
           </a>
         </div>

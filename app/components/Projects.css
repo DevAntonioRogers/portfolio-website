@@ -40,6 +40,18 @@
   height: auto;
 }
 
+.projects .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projects .icon h3 {
+  color: white;
+  font-weight: 800;
+}
+
 .projects-image:hover img {
   filter: brightness(50%);
 }
