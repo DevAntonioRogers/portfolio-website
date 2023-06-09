@@ -1,0 +1,37 @@
+.divider {
+  width: 100%;
+  background-color: black;
+}
+
+.divider-container {
+  background-color: inherit;
+  display: flex;
+  width: 89%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.divider-container h1 {
+  font-size: 25px;
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.divider-container p {
+  font-size: 3rem;
+  color: white;
+}
+
+@media only screen and (max-width: 780px) {
+  .divider-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+}

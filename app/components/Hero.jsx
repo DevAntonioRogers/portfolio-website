@@ -12,17 +12,17 @@ const Hero = () => {
   const phrases = ["Developer.", "Youtuber."];
   const text = useTypingEffect(phrases);
   return (
-    <div class="hero">
-      <div class="hero-container">
-        <div class="hero-heading">
+    <div className="hero">
+      <div className="hero-container">
+        <div className="hero-heading">
           <h1>
             Hello, I'm Antonio <br /> a <span>{text}</span>
           </h1>
-          <div class="hero-buttons">
+          <div className="hero-buttons">
             <button>Contact Me</button>
             <button>Projects</button>
           </div>
-          <div class="hero-socials">
+          <div className="hero-socials">
             <span>
               <AiFillGithub size={30} />
             </span>
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div class="hero-image">
+        <div className="hero-image">
           <Image src={me} height={0} width={0} />
         </div>
       </div>
