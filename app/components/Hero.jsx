@@ -4,6 +4,10 @@ import me from "../../public/dev.jpeg";
 import "./Hero.css";
 import useTypingEffect from "../hooks/useTypingEffect";
 
+// icons
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
+import { FaDev } from "react-icons/fa";
+
 const Hero = () => {
   const phrases = ["Developer.", "Youtuber."];
   const text = useTypingEffect(phrases);
@@ -19,10 +23,18 @@ const Hero = () => {
             <button>Projects</button>
           </div>
           <div class="hero-socials">
-            <ion-icon name="logo-github"></ion-icon>
-            <ion-icon name="logo-linkedin"></ion-icon>
-            <ion-icon name="logo-stackoverflow"></ion-icon>
-            <ion-icon name="logo-twitter"></ion-icon>
+            <span>
+              <AiFillGithub size={30} />
+            </span>
+            <span>
+              <AiFillTwitterCircle size={30} />
+            </span>
+            <span>
+              <AiFillLinkedin size={30} />
+            </span>
+            <span>
+              <FaDev size={30} />
+            </span>
           </div>
         </div>
 
