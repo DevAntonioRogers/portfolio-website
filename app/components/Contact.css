@@ -1,6 +1,57 @@
+.contact {
+  background-color: black;
+  width: 100%;
+}
+
+.contact-container {
+  background-color: inherit;
+  width: 89%;
+  margin: auto;
+  padding: 2rem 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-text h1 {
+  font-size: 50px;
+}
+
+.contact-text span {
+  font-size: 20px;
+}
+
 form {
   max-width: 400px;
   margin: 0 auto;
+}
+
+.form-heading {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+form h1 {
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+form span {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+form span {
+  background: none;
 }
 label,
 input,
@@ -8,11 +59,36 @@ textarea {
   display: block;
   width: 100%;
   margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+input {
+  padding: 0.3rem 0;
+  background-color: aliceblue;
 }
 textarea {
   height: 100px;
+  background-color: aliceblue;
 }
 form button {
-  width: 100%;
   padding: 10px;
+  width: 50%;
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+  .contact-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
 }
