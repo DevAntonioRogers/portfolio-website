@@ -1,0 +1,18 @@
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+textarea {
+  height: 100px;
+}
+form button {
+  width: 100%;
+  padding: 10px;
+}
