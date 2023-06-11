@@ -15,7 +15,7 @@
 }
 
 .hero-image {
-  max-width: 500px;
+  width: 500px;
   overflow: hidden;
   border-radius: 50%;
   background: linear-gradient(to right, #3f5efb, #fc466b);
