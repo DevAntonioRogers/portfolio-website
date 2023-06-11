@@ -5,7 +5,7 @@ import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <svg width="0" height="0">
         <linearGradient id="gradient" x1="100%" y1="100%" x2="0%" y2="0%">
           <stop stop-color="#3f5efb" offset="0%" />

@@ -21,7 +21,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contact-container">
         <div className="contact-text">
           <h1>

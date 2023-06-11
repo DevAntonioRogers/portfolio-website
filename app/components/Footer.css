@@ -1,0 +1,27 @@
+.footer {
+  background-color: black;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.footer-container {
+  width: 89%;
+  margin: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
