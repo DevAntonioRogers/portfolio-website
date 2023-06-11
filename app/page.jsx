@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Divider from "./components/Divider";
 import Hero from "./components/Hero";
@@ -10,6 +11,7 @@ const Home = () => {
       <Divider />
       <Projects />
       <Contact />
+      <About />
     </>
   );
 };
