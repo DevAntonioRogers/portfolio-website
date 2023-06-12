@@ -1,6 +1,11 @@
 import Image from "next/image";
 import "./Projects.css";
 import project1 from "../../public/project-1.png";
+import project2 from "../../public/project-2.png";
+import project3 from "../../public/project-3.png";
+import project4 from "../../public/project-4.png";
+import project5 from "../../public/project-5.png";
+import project6 from "../../public/project-6.png";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 
 const Projects = () => {
@@ -25,8 +30,8 @@ const Projects = () => {
           </a>
         </div>
         <div className="projects-image">
-          <Image src={project1} width={0} height={0} />
-          <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
+          <Image src={project2} width={0} height={0} />
+          <a href="https://wagster.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
@@ -34,8 +39,8 @@ const Projects = () => {
           </a>
         </div>
         <div className="projects-image">
-          <Image src={project1} width={0} height={0} />
-          <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
+          <Image src={project3} width={0} height={0} />
+          <a href="https://imagine.antoniorogers.com/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
@@ -43,8 +48,8 @@ const Projects = () => {
           </a>
         </div>
         <div className="projects-image">
-          <Image src={project1} width={0} height={0} />
-          <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
+          <Image src={project4} width={0} height={0} />
+          <a href="https://tictactoe.antoniorogers.com/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
@@ -52,8 +57,8 @@ const Projects = () => {
           </a>
         </div>
         <div className="projects-image">
-          <Image src={project1} width={0} height={0} />
-          <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
+          <Image src={project5} width={0} height={0} />
+          <a href="https://theweatherapp-theta.vercel.app/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
@@ -61,8 +66,8 @@ const Projects = () => {
           </a>
         </div>
         <div className="projects-image">
-          <Image src={project1} width={0} height={0} />
-          <a href="https://tailwind-responsive-navbar-mu.vercel.app/" target="_blank">
+          <Image src={project6} width={0} height={0} />
+          <a href="https://tripper.antoniorogers.com/" target="_blank">
             <div className="icon">
               <BsFillArrowUpRightCircleFill size={100} style={{ fill: "url(#gradient)" }} />
               <h3>Check out Project</h3>
