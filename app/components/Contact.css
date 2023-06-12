@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1500px;
 }
 
 .contact-text h1 {
@@ -24,7 +25,7 @@
 
 form {
   max-width: 400px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .form-heading {
@@ -32,7 +33,6 @@ form {
   gap: 5px;
   align-items: center;
   justify-content: center;
-  white-space: nowrap;
 }
 
 form h1 {
@@ -45,14 +45,11 @@ form h1 {
   margin-bottom: 10px;
 }
 
-form span {
+.form-heading span {
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-form span {
-  background: none;
-}
 label,
 input,
 textarea {
@@ -90,5 +87,9 @@ form button {
     flex-direction: column;
     text-align: center;
     gap: 3rem;
+  }
+
+  .form-heading {
+    flex-direction: column;
   }
 }

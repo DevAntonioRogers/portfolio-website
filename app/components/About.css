@@ -19,6 +19,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 4rem;
+  max-width: 1500px;
 }
 
 .about-text p {

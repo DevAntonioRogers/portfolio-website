@@ -111,3 +111,9 @@ nav {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .nav-container button {
+    display: none;
+  }
+}
