@@ -29,8 +29,12 @@ const Hero = () => {
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
             }}
           >
-            <button>Contact Me</button>
-            <button>Projects</button>
+            <motion.a whileHover={{ scale: 1.1 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}} href="#contact">
+              <button>Contact Me</button>
+            </motion.a>
+            <motion.a href="#projects" whileHover={{ scale: 1.1 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}}>
+              <button>Projects</button>
+            </motion.a>
           </div>
           <div
             className="hero-socials"
