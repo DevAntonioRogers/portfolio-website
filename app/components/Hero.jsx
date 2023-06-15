@@ -51,7 +51,7 @@ const Hero = () => {
             </a>
 
             <a href="https://www.youtube.com/channel/UCIK_w9r2GzL13YlZcdYtOig" target="_blank">
-              <AiFillGithub size={30} />
+              <AiFillYoutube size={30} />
             </a>
           </div>
         </div>

@@ -79,7 +79,7 @@
   margin-top: 1.5rem;
 }
 
-.hero-socials > span {
+.hero-socials > a {
   font-size: 1.5rem;
   background: #fc466b;
   background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
