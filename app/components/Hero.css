@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   max-width: 1500px;
+  z-index: 2;
 }
 
 .hero-image {
@@ -100,6 +101,7 @@
   .hero-container {
     flex-direction: column;
     height: fit-content;
+    gap: 1rem;
   }
 
   .hero-heading {
@@ -127,7 +129,6 @@
     width: 300px;
     height: 300px;
     justify-self: center;
-    margin-top: 2rem;
     order: 1;
   }
 }
