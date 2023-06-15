@@ -12,11 +12,9 @@ const Nav = () => {
   return (
     <nav id="home">
       <div className="nav-container">
-        <h1>
-          Antonio<span>.com</span>
-        </h1>
+        <h1>Antonio</h1>
         <ul className={openMenu ? "nav-menu active" : "nav-menu"}>
-          <li className="active">Home</li>
+          <li>Home</li>
           <li>Projects</li>
           <li>Contact</li>
           <li>About</li>
