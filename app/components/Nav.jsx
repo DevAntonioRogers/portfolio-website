@@ -2,6 +2,7 @@
 
 import "./Nav.css";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 const Nav = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -22,7 +23,9 @@ const Nav = () => {
         </ul>
 
         <div className="nav-right">
-          <button>Hire Me</button>
+          <motion.button whileHover={{ scale: 1.2 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}}>
+            Hire Me
+          </motion.button>
 
           <div onClick={menuHandler} className={openMenu ? "hamburger active" : "hamburger"}>
             <span className="bar"></span>
