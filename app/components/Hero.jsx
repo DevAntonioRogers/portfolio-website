@@ -7,8 +7,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 // icons
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
-import { FaDev } from "react-icons/fa";
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 
 const Hero = () => {
   const ref = useRef(null);
@@ -41,18 +40,19 @@ const Hero = () => {
               transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
             }}
           >
-            <span>
+            <a href="https://github.com/DevAntonioRogers" target="_blank">
               <AiFillGithub size={30} />
-            </span>
-            <span>
+            </a>
+            <a href="https://twitter.com/AntTheDev" target="_blank">
               <AiFillTwitterCircle size={30} />
-            </span>
-            <span>
+            </a>
+            <a href="https://www.linkedin.com/in/antonio-rogers-1640ab260/" target="_blank">
               <AiFillLinkedin size={30} />
-            </span>
-            <span>
-              <FaDev size={30} />
-            </span>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCIK_w9r2GzL13YlZcdYtOig" target="_blank">
+              <AiFillGithub size={30} />
+            </a>
           </div>
         </div>
 
