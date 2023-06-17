@@ -12,18 +12,28 @@ const Nav = () => {
   return (
     <nav id="home">
       <div className="nav-container">
-        <h1>Antonio</h1>
+        <h1>AR</h1>
         <ul className={openMenu ? "nav-menu active" : "nav-menu"}>
-          <li>Home</li>
-          <li>Projects</li>
-          <li>Contact</li>
-          <li>About</li>
+          <a href="/">
+            <li>Home</li>
+          </a>
+          <a href="#projects">
+            <li>Projects</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
+          <a href="#about">
+            <li>About</li>
+          </a>
         </ul>
 
         <div className="nav-right">
-          <motion.button whileHover={{ scale: 1.2 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}}>
-            Hire Me
-          </motion.button>
+          <a href="#contact">
+            <motion.button whileHover={{ scale: 1.2 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}}>
+              Contact Me
+            </motion.button>
+          </a>
 
           <div onClick={menuHandler} className={openMenu ? "hamburger active" : "hamburger"}>
             <span className="bar"></span>

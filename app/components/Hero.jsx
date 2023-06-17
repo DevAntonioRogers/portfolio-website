@@ -29,8 +29,8 @@ const Hero = () => {
             Hello, I'm Antonio <br /> a <span>{text}</span>
           </h1>
           <div className="hero-buttons">
-            <motion.a whileHover={{ scale: 1.1 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}} href="#contact">
-              <button>Contact Me</button>
+            <motion.a whileHover={{ scale: 1.1 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}} href="#about">
+              <button>About Me</button>
             </motion.a>
             <motion.a href="#projects" whileHover={{ scale: 1.1 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}}>
               <button>Projects</button>
