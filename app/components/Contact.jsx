@@ -1,10 +1,12 @@
 "use client";
-
+import { useInView } from "framer-motion";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 export const Contact = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -22,15 +24,30 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contact" className="contact">
+    <div id="contact" className="contact" ref={ref}>
       <div className="contact-container">
-        <div className="contact-text">
+        <div
+          className="contact-text"
+          style={{
+            transform: isInView ? "none" : "translateX(-200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+        >
           <h1>
             Let's Chat. <br /> Tell me about your project.
           </h1>
           <span>Let's create something together ✨</span>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          style={{
+            transform: isInView ? "none" : "translateX(200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+        >
           <div className="form-heading">
             <h1>Send me a message</h1>
             <span>🚀</span>

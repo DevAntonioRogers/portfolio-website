@@ -1,11 +1,23 @@
+"use client";
 import "./About.css";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 
 const About = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
   return (
     <div id="about" className="about">
-      <h1>About Me</h1>
+      <h1 ref={ref}>About Me</h1>
       <div className="about-container">
-        <div className="about-text">
+        <div
+          className="about-text"
+          style={{
+            transform: isInView ? "none" : "translateY(-200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+        >
           <p>
             Welcome to my portfolio! I'm Antonio Rogers, a passionate and dedicated full stack developer. My love for
             coding and creating innovative projects has been a driving force in my career. With a solid foundation in
@@ -14,7 +26,14 @@ const About = () => {
             deliver high-quality solutions.
           </p>
         </div>
-        <div className="skills">
+        <div
+          className="skills"
+          style={{
+            transform: isInView ? "none" : "translateY(200px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
+          }}
+        >
           <h2>Skills</h2>
           <div>
             <h3>Javascript</h3>
