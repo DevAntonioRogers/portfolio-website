@@ -13,24 +13,29 @@ const Nav = () => {
       document.body.classList.remove("no-scroll");
     }
   }, [openMenu]);
+
   const menuHandler = () => {
     setOpenMenu(!openMenu);
+  };
+
+  const closeMenu = () => {
+    setOpenMenu(false);
   };
   return (
     <nav id="home">
       <div className="nav-container">
         <h1>AR</h1>
         <ul className={openMenu ? "nav-menu active" : "nav-menu"}>
-          <a href="/">
+          <a onClick={closeMenu} href="/">
             <li>Home</li>
           </a>
-          <a href="#projects">
+          <a onClick={closeMenu} href="#projects">
             <li>Projects</li>
           </a>
-          <a href="#contact">
+          <a onClick={closeMenu} href="#contact">
             <li>Contact</li>
           </a>
-          <a href="#about">
+          <a onClick={closeMenu} href="#about">
             <li>About</li>
           </a>
         </ul>
