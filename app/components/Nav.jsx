@@ -1,11 +1,18 @@
 "use client";
 
 import "./Nav.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const Nav = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  useEffect(() => {
+    if (openMenu) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+  }, [openMenu]);
   const menuHandler = () => {
     setOpenMenu(!openMenu);
   };
