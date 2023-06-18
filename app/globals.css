@@ -20,6 +20,6 @@ li {
   list-style: none;
 }
 
-body {
+.wrapper {
   overflow-x: hidden;
 }
