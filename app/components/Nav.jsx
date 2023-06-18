@@ -43,7 +43,7 @@ const Nav = () => {
         <div className="nav-right">
           <a href="#contact">
             <motion.button whileHover={{ scale: 1.2 }} onHoverStart={(e) => {}} onHoverEnd={(e) => {}}>
-              Contact Me
+              Let's Talk
             </motion.button>
           </a>
 

@@ -1,0 +1,11 @@
+.top-button {
+  position: fixed;
+  right: 0.7rem;
+  bottom: 1rem;
+  z-index: 999999;
+  display: none;
+}
+
+.top-button.active {
+  display: block;
+}

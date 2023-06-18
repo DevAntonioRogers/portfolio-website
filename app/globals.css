@@ -19,3 +19,7 @@ a {
 li {
   list-style: none;
 }
+
+body {
+  overflow-x: hidden;
+}

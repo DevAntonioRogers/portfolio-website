@@ -4,6 +4,7 @@ import Divider from "./components/Divider";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import TopButton from "./components/TopButton";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Contact />
       <About />
       <Footer />
+      <TopButton />
     </>
   );
 };
