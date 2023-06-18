@@ -1,6 +1,7 @@
 .divider {
   width: 100%;
   background-color: black;
+  overflow-x: hidden;
 }
 
 .divider-container {
